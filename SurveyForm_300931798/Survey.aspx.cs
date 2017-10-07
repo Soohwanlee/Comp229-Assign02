@@ -17,6 +17,7 @@ namespace SurveyForm_300931798
 
         protected void btnOK_Click(object sender, EventArgs e)
         {
+            //Used Session to transter data to Thankyou page.
            Session["Name"] = userEmail.Text;
             if (this.rdoMan.Checked)
             {
